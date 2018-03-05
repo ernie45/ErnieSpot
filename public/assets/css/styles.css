@@ -21,6 +21,10 @@ body{
 }
 .repository{
   background: gray;
+  margin: 0px;
+}
+.repository-image{
+  width: 50%;
 }
 #nav, #panBody, #panDefault{
   background:#484545;
