@@ -24,6 +24,7 @@ body{
 }
 .repository{
   padding: 20px;
+  padding-top: 5px;
   background: gray;
   margin: auto;
   border-radius: 10%;
