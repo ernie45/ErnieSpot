@@ -20,11 +20,14 @@ body{
   padding-top: 0px;
 }
 .repository{
+  padding: 20px;
   background: gray;
-  margin: 0px;
+  margin: auto;
+  border-radius: 10%;
 }
 .repository-image{
-  width: 50%;
+  width: 75%;
+  height: 100%
 }
 #nav, #panBody, #panDefault{
   background:#484545;
