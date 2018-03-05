@@ -19,11 +19,15 @@ body{
   width: 100%;
   padding-top: 0px;
 }
+.bannerTitle{
+  margin-bottom: 100px;
+}
 .repository{
   padding: 20px;
   background: gray;
   margin: auto;
   border-radius: 10%;
+  margin-bottom: 10px;
 }
 .repository-image{
   width: 75%;
