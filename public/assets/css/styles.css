@@ -13,11 +13,17 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#aboutText{
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 #portfolioSnippet{
   position: relative;
   top: 250px;
   width: 100%;
   padding-top: 0px;
+  margin-bottom: 250px;
 }
 .bannerTitle{
   margin-bottom: 100px;
@@ -30,9 +36,22 @@ body{
   border-radius: 10%;
   margin-bottom: 10px;
 }
+.repository:hover{
+  padding: 0px;
+  background: rgb(0, 255, 234);
+}
+.repository-title{
+  color: yellow;
+}
 .repository-image{
   width: 75%;
   height: 100%
+}
+.repository-image:hover{
+  opacity: 0.5;
+}
+#contactSnippet{
+  width: 100%;
 }
 #nav, #panBody, #panDefault{
   background:#484545;
