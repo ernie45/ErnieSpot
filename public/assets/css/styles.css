@@ -39,10 +39,10 @@ body{
 }
 .repository:hover{
   padding: 0px;
-  background: rgb(0, 255, 234);
+  background: rgb(41, 40, 40);
 }
 .repository-title{
-  color: yellow;
+  color:black;
 }
 .repository-image{
   width: 75%;
