@@ -11,7 +11,7 @@ app.engine("handlebars", hanb({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 require("./router.js")(app);
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 9000;
 
 app.listen(PORT, function(){
     console.log("Listening on port: " + PORT);

@@ -2,7 +2,7 @@ body{
   width: 100%;
   height: 590px;
   /* The image used */
-  background-image: url("/assets/images/space.jpg");
+  background-image: url("/assets/images/professional.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -17,6 +17,7 @@ body{
   color: white;
   font-weight: bold;
   letter-spacing: 2px;
+  text-shadow: 2px 2px gray;
 }
 #portfolioSnippet{
   position: relative;
@@ -96,78 +97,28 @@ body{
 .arrow{
   margin: 0px;
 }
-.typingNoDelay{
-  visibility: hidden;
-  color: white;
-  overflow: scroll; 
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  font-weight: 900;
-  animation: 
-    typing 3s steps(20, end),
-    blink-caret .75s step-end infinite;
-    visibility: visible;
-}
-.typingThreeSecondDelay{
-  visibility: hidden;
-  color: white;
-  overflow: hidden; 
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation: 
-    typing 3s steps(20, end),
-    blink-caret .75s step-end infinite,
-    showText 3s steps(20, end);
-  animation-delay: 3s;
-}
-.shake:hover {
-        animation: shake .86s cubic-bezier(.1, 5,1,2) both infinite;
-}
 #aboutMe, #port, #cont{
     color: rgb(55, 178, 226);
+}
+.panel{
+  margin-top: 100px;
+  padding: 50px;
 }
 #about, #portfolio, #contact{
   font-weight: bold;
     color: #02ffb8;
 }
-@keyframes shake {
-    10%, 90% {
-      transform: translate3d(-1px, 0, 0);
-    }
-    
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
-    }
-  
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
-    }
-  
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
-    }
+#contactSnippet{
+  margin-top: 100px;
 }
-@keyframes typing {
-    0% {visibility: visible}
-    from { width: 0 }
-    to { width: 100% }
-}
-@keyframes showText{
-  0% {visibility: visible}
-    from { width: 0 }
-    to { width: 100% }
-}
-@keyframes fadeIn{
-  0% {opacity: 0}
-  100% {opacity: 1}
+.contactLink{
+  width: 500px;
+  margin-bottom: 100px;
 }
 @keyframes upDown{
   0% {top: 0px}
   100% {top: 10px}
 }
-
 @media only screen and (min-width: 768px) {
   #arrow {
     position: relative;
