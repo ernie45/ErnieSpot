@@ -1,11 +1,7 @@
 const path = require("path");
 
 module.exports = function(app){
-    
-    app.get("/contact", function(req, res){
-        res.render("contact");
-    });
-    app.get("/portfolio", function(req, res){
-        res.render("portfolio");
-    });
+    // app.post("/send.php", function(req, res){
+    //     res.sendFile(path.join(__dirname, "/public/send.php"));
+    // });
 };
