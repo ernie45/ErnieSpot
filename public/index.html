@@ -6,10 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ernesto's Spot</title>
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="/assets/js/index.js"></script>
 </head>
 <body>
         <div class="container" id="aboutSnippet">
@@ -124,7 +123,11 @@
                                         <img class="contactLink" src="http://sourcingrecruitment.info/wp-content/uploads/2015/05/stackoverflow.png" style="width: 50px;">
                                       </a>
                                     </div>
-                      
+                                    <form class="row" action="/sendEmail" method="post">
+                                        <input class="col-xs-12" type="text" name="sender" placeholder="Name" required>
+                                        <textarea class="col-xs-12" type="text" name="message" placeholder="Message" required></textarea>
+                                        <input type="submit" value="SEND" id="sendButton" value="send">
+                                    </form>
                                   </div>
                                 </div>
                               </div>
@@ -132,5 +135,5 @@
                 </div>
             </div>
 </body>
-
+<script src="./assets/js/index.js"></script>
 </html>
