@@ -6,7 +6,7 @@ module.exports = function(app){
     //     res.sendFile(path.join(__dirname, "/public/send.php"));
     // });
     app.get("/", function(req, res){
-      res.sendFile(path.join(__dirname, "../public/index.html"));
+      
     });
     app.post("/sendEmail", function(req, res){
       console.log(req.body);
