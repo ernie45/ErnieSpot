@@ -1,12 +1,12 @@
 const path = require("path");
-const config = require("../public/config");
+const config = require("config");
 
 module.exports = function(app){
     // app.post("/send.php", function(req, res){
     //     res.sendFile(path.join(__dirname, "/public/send.php"));
     // });
     app.get("/", function(req, res){
-      
+      res.sen
     });
     app.post("/sendEmail", function(req, res){
       console.log(req.body);
