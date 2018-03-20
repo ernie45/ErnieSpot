@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.engine("handlebars", hanb({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
-// require("./routes/router.js")(app);
+require("./routes/router.js")(app);
 
 var PORT = process.env.PORT || 3000;
 
