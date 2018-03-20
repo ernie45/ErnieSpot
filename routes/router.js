@@ -5,9 +5,6 @@ module.exports = function(app){
     // app.post("/send.php", function(req, res){
     //     res.sendFile(path.join(__dirname, "/public/send.php"));
     // });
-    app.get("/", function(req, res){
-      res.sendFile(path.join(__dirname, "../public/other.html"));
-    });
     app.post("/sendEmail", function(req, res){
       console.log(req.body);
       var message = req.body.message;
@@ -22,6 +19,6 @@ module.exports = function(app){
         html: "Sender: " + sender + "\nmessage: " + message,
       };
       sgMail.send(msg);
-      res.sendFile(path.join(__dirname, "../public/other.html"));
+      res.sendFile(path.join(__dirname, "../public/index.html"));
     });
 };
