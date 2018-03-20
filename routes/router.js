@@ -5,6 +5,9 @@ module.exports = function(app){
     // app.post("/send.php", function(req, res){
     //     res.sendFile(path.join(__dirname, "/public/send.php"));
     // });
+    app.get("/", function(req, res){
+      res.sendFile(path.join(__dirname, "../public/index.html"));
+    });
     app.post("/sendEmail", function(req, res){
       console.log(req.body);
       var message = req.body.message;
