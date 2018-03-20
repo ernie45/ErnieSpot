@@ -1,5 +1,5 @@
 const path = require("path");
-const config = require("config");
+const config = require("../public/config");
 
 module.exports = function(app){
     app.post("/sendEmail", function(req, res){
