@@ -101,8 +101,15 @@ body{
     color: rgb(55, 178, 226);
 }
 .panel{
-  margin-top: 100px;
-  padding: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+  padding: 100px;
+  width: 50%;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  
 }
 #about, #portfolio, #contact{
   font-weight: bold;
@@ -114,6 +121,20 @@ body{
 .contactLink{
   width: 500px;
   margin-bottom: 100px;
+}
+#contactForm{
+  width: 50%;
+  margin: auto;
+}
+#formName{
+  margin-bottom: 15px;
+}
+#formTextArea{
+  margin-bottom: 15px;
+}
+#sendButton{
+  padding: 20px;
+  font-weight: bold;
 }
 @keyframes upDown{
   0% {top: 0px}
