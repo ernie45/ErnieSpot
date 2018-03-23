@@ -104,30 +104,29 @@
             <div class="container" id="contactSnippet">
                 <div class="banner" id="contactBanner">
                     <div class="row jumbotron text-center">
-                        <h1>Let's Get in Contact</h1>
                         <div class="panel panel-default col-xs-12 col-md-7">
-                                <div class="panel-body">
-                                  <div class="row">
+                            <div class="panel-header"><h1>Let's Get in Contact</h1></div>
+                            <div class="panel-body">
+                                <div class="row">
                                     <form class="row" id="contactForm" action="/sendEmail" method="post">
                                         <input class="col-xs-12" type="text" id="formName" name="sender" placeholder="Name" required>
                                         <textarea class="col-xs-12" type="text"id="formTextArea" name="message" placeholder="Message" required></textarea>
                                         <input type="submit" value="SEND" id="sendButton">
                                     </form>
-                                  </div>
                                 </div>
-                                
-                              </div>
-                              <div class="col-md-4 shake">
-                                <a href="https://github.com/" target="_blank">
-                                  <img class="contactLink" src="./assets/images/github.png" style="width: 50px;">
-                                </a>
-                              </div>
-                              <div class="col-md-4 shake">
+                            </div>          
+                        </div>
+                        <div class="col-xs-4 shake">
+                            <a href="https://github.com/" target="_blank">
+                                <img class="contactLink" src="./assets/images/github.png" style="width: 50px;">
+                            </a>
+                        </div>
+                              <div class="col-xs-4 shake">
                                 <a href="https://www.linkedin.com/in/ernesto-hernandez45/" target="_blank">
                                   <img class="contactLink" src="./assets/images/linkedin.png" style="width: 50px;">
                                 </a>
                               </div>
-                              <div class="col-md-4 shake">
+                              <div class="col-xs-4 shake">
                                 <a href="https://stackoverflow.com/" target="_blank">
                                   <img class="contactLink" src="./assets/images/stackoverflow.png" style="width: 50px;">
                                 </a>
@@ -135,6 +134,14 @@
                     </div>
                 </div>
             </div>
+            <div class="container" id="footerSnippet">
+                    <div class="banner" id="footerBanner">
+                            <div id="footerDivider"></div>
+                        <div class="row jumbotron text-center" id="footerTron">
+                            <section><b>© Ernesto Hernandez</b></section>      
+                        </div>
+                    </div>
+                </div>
 </body>
 <script src="./assets/js/index.js"></script>
 </html>

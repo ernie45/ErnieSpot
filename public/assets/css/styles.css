@@ -52,9 +52,6 @@ body{
 .repository-image:hover{
   opacity: 0.5;
 }
-#contactSnippet{
-  width: 100%;
-}
 #nav, #panBody, #panDefault{
   background:#484545;
   border-width: 2px;
@@ -109,18 +106,18 @@ body{
   border-radius: 50%;
   position: relative;
   top: 50px;
-  
-}
-#about, #portfolio, #contact{
-  font-weight: bold;
-    color: #02ffb8;
+  border-width: 10px;
+  border-color: red;
 }
 #contactSnippet{
   margin-top: 100px;
+  width: 100%;
 }
 .contactLink{
   width: 500px;
   margin-bottom: 100px;
+  position: relative;
+  top: 100px;
 }
 #contactForm{
   width: 50%;
@@ -135,6 +132,18 @@ body{
 #sendButton{
   padding: 20px;
   font-weight: bold;
+}
+#footerSnippet{
+  height: 50px;
+  width: 100%;
+}
+#footerTron{
+  margin-bottom: 0px;
+}
+#footerDivider{
+  height: 2px;
+  background: red;
+  width: 100%;
 }
 @keyframes upDown{
   0% {top: 0px}
