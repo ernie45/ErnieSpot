@@ -31,6 +31,7 @@ body{
   margin-bottom: 100px;
 }
 .repository{
+  background: rgb(207, 207, 207);
   padding: 20px;
   padding-top: 5px;
   margin: auto;
@@ -140,7 +141,7 @@ body{
 #footerTron{
   margin-bottom: 0px;
 }
-#footerDivider{
+.divider{
   height: 2px;
   background: red;
   width: 100%;
